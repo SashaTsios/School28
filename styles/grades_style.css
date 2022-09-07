@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    padding-top: 15vh;
+    
+}
+
+/* all links */
+.container__lessons{ 
+    width: 380px;
+    height: 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.lesson__title{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(64, 224, 208, .9);
+    border-left: 5px solid rgb(64, 224, 208, .5);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.span__title{
+    background-color:rgb(64, 224, 208);
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+.lesson__btn_i{
+    text-align: left;
+    width: 380px;
+    height: 30px;
+    border: none;
+    border-left: 5px solid rgb(64, 224, 208, .5);
+    border-radius: 4px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+/* additional class for added lessons */
+.lesson__btn_available{
+    background-color:rgb(64, 224, 208, .7);
+}
+
+.lesson__btn_i:hover, .lesson__to-main_btn:hover{
+    border-left: 5px solid #355b82;
+    background-color: rgb(64, 224, 208, .9);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.lesson__to-main_btn:hover{
+    font-weight: 600;
+}
+
+.lesson_i{
+    margin: 5px 0;
+}
+
+.lesson_a{
+    position: relative;
+    padding: 0;
+}
+
+.lesson__img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.lesson__to-main_btn{
+    text-align: center;
+    width: 380px;
+    font-family: "Quicksand",sans-serif;
+    border: none;
+    border-radius: 4px;
+    background-color:rgb(64, 224, 208, .9);
+    border-left: 5px solid rgb(64, 224, 208, .5);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* @media only screen and (max-width: 1920px) {   
+    .container {padding-top: 15vh;} 
+} */
