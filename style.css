@@ -69,6 +69,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     line-height: 50px;
+    color: #000;
 }
 
 .blocks__btn:hover{
