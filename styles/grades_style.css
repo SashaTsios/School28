@@ -19,7 +19,7 @@ body{
 
 .container{
     padding-top: 15vh;
-    
+    padding-bottom: 5vh;
 }
 
 /* all links */
@@ -92,6 +92,10 @@ body{
     height: 20px;
     margin-top: 5px;
     margin-left: 10px;
+}
+
+.lesson__to-main, .lesson__to-main_a{
+    color: #000;
 }
 
 .lesson__to-main_btn{
